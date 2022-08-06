@@ -1,0 +1,105 @@
+@charset "utf-8"
+
+*{
+  margin:  0px;
+  padding: 0px;
+}
+body{
+   max-width: 1000;
+   min-width: 300;
+    background: rgba(239, 232, 245, 0.767);
+}
+#titulo{
+    background-image: linear-gradient(to bottom, rgb(0, 128, 0),rgb(201, 223, 4));
+    box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.712);
+   margin-bottom: 0px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    color: beige;
+    font-size: 45px;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.884);
+    margin-top: -7px;
+    border-radius: 20px 20px 0px 0px;
+   
+}
+
+
+#dow{
+    background-image: linear-gradient(to right, rgb(7, 19, 0),transparent);
+   
+   margin-right: 1100px;
+   margin-top: -45px;
+   color: white;
+   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.767);
+   width: 100%;
+}
+.download{
+    background-image: linear-gradient( rgb(204, 233, 187));
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.671);
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-right: 150px;
+    margin-left: 0px;
+    width: 100%;
+}
+#nav{
+    margin-top: 40px;
+    padding-top: -50;
+    padding-bottom: -50px;
+
+ }
+
+ .download a{
+
+    padding:20px;
+    margin: 20px;
+   font-weight: bold;
+   font-size:15px;
+   font-family: Arial, Helvetica, sans-serif;
+   color: red;
+   text-decoration: none;
+   text-shadow: 2px 1px 2px rgba(0, 0, 0, 0.705);
+    
+}
+.download  >a:hover{
+color: brown;
+text-decoration: underline;
+font-size: 10px;
+
+}
+
+#visualizar{
+    display: flex;
+    justify-content:space-around;
+    margin-top: 30px;
+   width: 100%;
+}
+#visualizar a:hover{
+background-color: blueviolet;
+
+}
+
+#lira{
+    display:flex;
+    justify-items:center;
+   margin-top: 30px;
+   width: 100%;
+    
+}
+p{
+    margin-top: -20px;
+    padding: 20px;
+    text-align: justify;
+    font-weight: 800;
+    font-family: 'Overpass', sans-serif;
+}
+#texto{
+    padding: 20px;
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(29, 104, 0);
+    text-shadow: 2px 1px 1px  rgba(0, 0, 0, 0.808);
+   
+}
+

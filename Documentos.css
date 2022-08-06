@@ -1,0 +1,105 @@
+@charset "utf-8"
+
+*{
+  margin:  0px;
+  padding: 0px;
+}
+body{
+   max-width: 1000;
+   min-width: 300;
+    background: rgba(231, 216, 150, 0.842);
+}
+#titulo{
+    background-image: linear-gradient(to bottom, rgb(0, 128, 0),rgb(201, 223, 4));
+    box-shadow: 3px 3px 1px rgba(0, 0, 0, 0.712);
+    margin-top: -7px;
+   margin-bottom: 0px;
+    padding-top:20px;
+    padding-bottom: 20px;
+    color: beige;
+    font-size: 45px;
+    text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.884);
+    border-radius: 20px 20px  0px 0px;
+   
+}
+
+
+#dow{
+    background-image: linear-gradient(to right, rgb(7, 19, 0),transparent);
+   margin-right: 1100px;
+   margin-top: -45px;
+   color: white;
+   text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.767);
+   width: 100%;
+}
+.download{
+  background-color: rgba(1, 179, 111, 0.719);
+    box-shadow: 1px 5px 3px 2px rgba(0, 0, 0, 0.664);
+    border-radius: 10px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-right: 300px;
+    margin-left: 100px;
+    margin-bottom: 60px;
+    
+}
+#nav{
+margin-right: -150px;
+    margin-left: 100px;
+    margin-top: 40px;
+    padding-top: -50;
+    padding-bottom: -50px;
+   
+ }
+
+ .download a{
+
+    padding:-5px;
+    margin: 38px;
+   font-weight: bold;
+   font-size: larger;
+   font-family: Arial, Helvetica, sans-serif;
+   color: rgb(204, 184, 2);
+   text-decoration: none;
+   text-shadow: 2px 4px 5px  rgba(0, 0, 0, 0.884);
+    
+}
+.download  >a:hover{
+color: rgba(12, 5, 112, 0.767);
+text-decoration: underline;
+font-size: 15px;
+
+}
+
+
+ #rodape{
+    background-color: #014707ab;
+     color: white;
+     font-weight: bold;
+     text-align: center;
+     font-size: 18px;
+     max-width: 100%;
+ }
+ #lista{
+ background-image: linear-gradient(to right, rgba(74, 165, 0, 0.699), transparent);
+  margin-top: 20px;
+  font-weight: 900;
+  
+ }
+ ul{
+  list-style:circle;
+  padding: auto;
+ }
+ li a {
+  line-height: 50px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-decoration: none;
+ }
+li a:hover{
+  text-decoration:underline;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: crimson;
+  font-weight: 900;
+  color: wheat;
+  background-color: blueviolet;
+}

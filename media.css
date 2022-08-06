@@ -1,0 +1,99 @@
+@media screen and (max-width: 760px){
+
+
+.download a{
+    display: flex;
+    justify-content: space-around;
+    padding:0px;
+    margin: 0px;
+   font-weight: bold;
+   font-size:15px;
+}
+
+
+#visualizar{
+display: flex;
+flex-direction: column;
+align-items: center;
+padding:0px;
+margin: 0px;
+margin-top: 30px;
+width: 100%;
+}
+#imagens{
+    display: flex;
+flex-direction: column;
+align-items: center;
+}
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#linksimportantes{
+    width: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+padding: 24px ;
+
+}
+.download a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+#index{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+#arboviroses{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+#arboviroses2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.container{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 10px; 
+}
+
+
+
+}
+
+    
